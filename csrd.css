@@ -1,0 +1,76 @@
+
+
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    /*width: 100%;*/
+    
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.title hr{
+   
+    height: 1px;
+    background:aqua;
+    padding: 5px 4px 0 5px;
+}
+
+#image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+section.container{
+    margin-top: 30px;
+    width: 50%;
+    height: 80vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.name{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.job{
+   color: aqua;
+   font-weight: 400;
+   text-transform: uppercase; 
+}
+.btn{
+    all: unset;
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(20, 78, 78);
+}
+
+  .button-group{
+      margin-bottom: 20px;
+  }
+    
+
+
